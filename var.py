@@ -14,7 +14,7 @@ def make_int(str_input):
 class Var:
     API_ID = int(os.getenv("API_ID", "26788480"))
     API_HASH = os.getenv("API_HASH", "858d65155253af8632221240c535c314")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "7411813928:AAGkJvxPm-1uNawz-9qBe-Bkt-e1rnfIROY")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "7222795881:AAGvVnHfh2qOcKkPQ18LpS6YAkAT5EbX_WE")
     sudo = os.getenv("SUDO")
     SUDO = [6988231213]
     if sudo:
